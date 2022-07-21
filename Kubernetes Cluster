@@ -1,4 +1,4 @@
-Kubernetes Cluster setup
+Kubernetes Cluster setup...
 
 Requirments
 
@@ -11,15 +11,13 @@ Slave/ Node:
 1 GB RAM
 1 Core of CPU
 
-FIle sharing code
+FIle sharing code...
 
 sudo apt-get update
 sudo apt-get install virtualbox-guest-dkms
 sudo apt-get install virtualbox-guest-utils
-utils
 
-
-Pre-Installation Steps On Both Master & Slave (To Install Kubernetes)
+Pre-Installation Steps On Both Master & Slave (To Install Kubernetes)....
 
 $ sudo su
 # apt-get update
@@ -57,7 +55,7 @@ EOF
 
     Environment=”cgroup-driver=systemd/cgroup-driver=cgroupfs”
 
-only in master'
+only in master'....
 
 # kubeadm init --apiserver-advertise-address=<ip-address-of-kmaster-vm> --pod-network-cidr=192.168.0.0/16
 
