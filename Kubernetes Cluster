@@ -32,7 +32,7 @@ $ sudo su
 
 Ipconfig
 
-# nano /etc/hostsn
+# nano /etc/hosts
 
 # sudo apt-get install openssh-server 
 
