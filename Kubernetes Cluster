@@ -65,5 +65,18 @@ $ mkdir -p $HOME/.kube
 $ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 $ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
+Token Example use to connect to nodes...
+
 kubeadm join 192.168.2.11:6443 --token hqobgg.oalypd5s3dq1m4jg \
 	--discovery-token-ca-cert-hash sha256:d8e0a93b764f36baca005750e3bd384ccdf75a164f2e6ed43b16bc154473261e
+
+#Kubectl get nodes
+
+Fannel addon install....
+
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+
+After adding nods check status....
+
+#Kubectl get nodes
+
