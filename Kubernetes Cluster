@@ -11,6 +11,13 @@ Slave/ Node:
 1 GB RAM
 1 Core of CPU
 
+FIle sharing code
+
+sudo apt-get update
+sudo apt-get install virtualbox-guest-dkms
+sudo apt-get install virtualbox-guest-utils
+utils
+
 
 Pre-Installation Steps On Both Master & Slave (To Install Kubernetes)
 
@@ -25,7 +32,7 @@ $ sudo su
 
 Ipconfig
 
-# nano /etc/hosts
+# nano /etc/hostsn
 
 # sudo apt-get install openssh-server 
 
