@@ -11,7 +11,7 @@ Slave/ Node:
 1 GB RAM
 1 Core of CPU
 
-FIle sharing code...
+FIle sharing code(For VM only)...
 
 sudo apt-get update
 sudo apt-get install virtualbox-guest-dkms
