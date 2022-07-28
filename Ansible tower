@@ -1,0 +1,35 @@
+Required System Configuration
+  2 Core processor
+  8 GB Ram
+  50GB Storage
+  Cent OS 8 stream 
+  
+  
+Install Ansible...
+ 
+   #sudo su install -y epel release'=
+   #sudo dnf install -y ansible via curl
+   
+Download and Extract ansible Tower..
+
+  #curl -k -O https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+  #tar xvzf ansible-tower-setup-latest.tar.gz
+  
+  #cd ansible-tower-setup-(version)
+  #Ls
+  #vi inventory
+ 
+ The items that you MUST set are..
+
+       admin_password
+       pg_password
+       rabbitmq_password
+       
+ Run the setup
+ 
+ #sudo ./setup.sh
+ 
+ Activate the subcribtion.
+ 
+ Reference Site: https://blog.v12n.io/installing-ansible-tower-on-centos-8-for-testing-with-vra-8-1/
+ Youtube video:https://www.youtube.com/watch?v=p-YmxwvCRP4
