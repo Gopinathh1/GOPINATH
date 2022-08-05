@@ -81,6 +81,5 @@ After adding nods check status....
 #Kubectl get nodes
 
 EX
-kubeadm join 10.0.2.15:6443 --token h64k7e.erz5a2pz9svyuvg3 \
-	--discovery-token-ca-cert-hash sha256:e0654ea2f3836321b8c30625b900afb2c7c7854c7f9d96cca8fc91627b6e173d
-
+kubeadm join 192.168.2.11:6443 --token ngnsat.aqu34z4k3eqdgq0h \
+	--discovery-token-ca-cert-hash sha256:169218b345402683b86f94967a0c77b55c7ae99c31f301499d130c170c7b071f
