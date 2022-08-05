@@ -83,3 +83,7 @@ After adding nods check status....
 EX
 kubeadm join 192.168.2.11:6443 --token ngnsat.aqu34z4k3eqdgq0h \
 	--discovery-token-ca-cert-hash sha256:169218b345402683b86f94967a0c77b55c7ae99c31f301499d130c170c7b071f
+	
+	kubeadm join 192.168.2.11:6443 --token lwvbgi.0fyi76y8gyqa5sv3 \
+	--discovery-token-ca-cert-hash sha256:5b685d3ef98032e1cf6f15a7f557c5a4895b5daa06b2a4d5749be306c639a464 
+
