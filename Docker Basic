@@ -1,0 +1,23 @@
+apt-get install Docker
+
+docker pull #images name#
+
+docker images  ----> show available images
+
+docker ps ----> show runing services
+
+docker ps -a ----> show run and stop images
+
+docker run #image name# --name #assign name# -p 1111:80 (#assign port: defult port#) -d 
+
+docker exec it (#service id or name) bash
+
+docker start  : docker stop. : docker build
+
+Docker commit ---->creating a new image
+
+docker rmi --->remove a image
+
+Refreance ---- > https://www.edureka.co/blog/docker-commands/
+
+
